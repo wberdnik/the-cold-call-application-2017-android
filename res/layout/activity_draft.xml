@@ -1,0 +1,214 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="center_horizontal"
+              android:orientation="vertical"
+              android:paddingBottom="@dimen/activity_vertical_margin"
+              android:paddingLeft="@dimen/activity_horizontal_margin"
+              android:paddingRight="@dimen/activity_horizontal_margin"
+              android:paddingTop="@dimen/activity_vertical_margin"
+              tools:context="com.leadinka.android.coldcall.DraftActivity">
+
+
+    <ScrollView
+        android:id="@+id/login_form"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/email_login_form"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/fio"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="@string/prompt_fio"
+                    android:inputType="textPersonName"
+                    android:maxLines="1"
+                    android:singleLine="true"/>
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/fabule"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/prompt_fabule"
+                    android:inputType="textMultiLine"
+                    android:lines="5"
+                    android:maxLines="10"
+                    android:singleLine="false"/>
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/Base.Animation.AppCompat.Dialog"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:hint="Время: "
+                        android:maxLines="1"
+                        android:singleLine="true"/>
+
+                    <EditText
+                        android:id="@+id/datetime_h"
+                        style="@style/Base.Animation.AppCompat.Dialog"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:hint="10"
+                        android:inputType="numberDecimal"
+                        android:maxLines="1"
+                        android:singleLine="true"/>
+
+                    <TextView
+                        style="@style/Base.Animation.AppCompat.Dialog"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:hint="час."
+                        android:maxLines="1"
+                        android:singleLine="true"/>
+
+                    <EditText
+                        android:id="@+id/datetime_min"
+                        style="@style/Base.Animation.AppCompat.Dialog"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:hint="00"
+                        android:inputType="numberDecimal"
+                        android:maxLines="1"
+                        android:singleLine="true"/>
+
+
+                    <TextView
+                        style="@style/Base.Animation.AppCompat.Dialog"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:hint="мин.  "
+                        android:maxLines="1"
+                        android:singleLine="true"/>
+
+                    <EditText
+                        android:id="@+id/datetime_d"
+                        style="@style/Base.Animation.AppCompat.Dialog"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:hint="12"
+                        android:inputType="numberDecimal"
+                        android:maxLines="1"
+                        android:singleLine="true"/>
+
+                    <TextView
+                        style="@style/Base.Animation.AppCompat.Dialog"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:hint=" - "
+                        android:maxLines="1"
+                        android:singleLine="true"/>
+
+                    <EditText
+                        android:id="@+id/datetime_m"
+                        style="@style/Base.Animation.AppCompat.Dialog"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:hint="05"
+                        android:inputType="numberDecimal"
+                        android:maxLines="1"
+                        android:singleLine="true"/>
+
+                    <TextView
+                        style="@style/Base.Animation.AppCompat.Dialog"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:hint=" - "
+                        android:maxLines="1"
+                        android:singleLine="true"/>
+
+
+                    <EditText
+                        android:id="@+id/datetime_y"
+                        style="@style/Base.Animation.AppCompat.Dialog"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:hint="2017"
+                        android:inputType="numberDecimal"
+                        android:maxLines="1"
+                        android:singleLine="true"/>
+
+
+                </LinearLayout>
+
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/city"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Москва"
+                    android:inputType="textMultiLine"
+                    android:lines="1"
+                    android:maxLines="1"
+                    android:singleLine="true"/>
+
+            </android.support.design.widget.TextInputLayout>
+
+
+            <TextView
+                android:id="@+id/status"
+                style="?android:textAppearanceSmall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:background="#cccccc"
+                android:lines="3"
+                android:text="ТЕКУЩИЙ СТАТУС"
+                android:textColor="#000000"
+                android:textStyle="bold"/>
+
+            <Button
+                android:id="@+id/draft"
+                style="?android:textAppearanceSmall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#4499cc"
+                android:layout_marginTop="16dp"
+                android:text="@string/action_draft"
+                android:textStyle="bold"/>
+            <Button
+                android:id="@+id/lead"
+                style="?android:textAppearanceSmall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ff3333"
+                android:layout_marginTop="16dp"
+                android:text="@string/action_lead"
+                android:textStyle="bold"/>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

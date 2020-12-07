@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.leadinka.android.coldcall.ColdCallActivity">
+    <item
+        android:id="@+id/action_menu_SMS"
+        android:orderInCategory="60"
+        android:title="@string/action_menu_SMS"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_menu_Lead"
+        android:orderInCategory="70"
+        android:title="@string/action_menu_Lead"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_menu_call"
+        android:orderInCategory="80"
+        android:title="@string/action_menu_call"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_setting"
+        android:orderInCategory="80"
+        android:title="@string/action_menu_setting"
+        app:showAsAction="never" />
+</menu>

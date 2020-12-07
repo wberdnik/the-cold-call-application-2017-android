@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">простая-работа.рф</string>
+
+    <string name="break_button">Номер НЕДОСТУПЕН</string>
+    <string name="lead_button">Фиксировать ЗАЯВКУ</string>
+    <string name="crone_button">Просил ЖДАТЬ</string>
+
+    <string name="master_init_button">ПОДКЛЮЧИТЬ</string>
+    <string name="master_next_button">СЛЕДУЮЩИЙ</string>
+
+    <string name="start_info">Нажмите кнопку ПОДКЛЮЧИТЬ.</string>
+
+    <string name="toast_wifi">Включите WiFi !!!</string>
+
+    <string name="title_activity_draft">Регистрация заявки</string>
+
+    <string name="title_activity_report">Отчет о принятых заявках</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_fio">ФИО клиента</string>
+    <string name="prompt_fio_operator">Ваше ФИО</string>
+    <string name="prompt_email">Адрес электронной почты</string>
+    <string name="prompt_phone">Контактный телефон(без +, только цифры)</string>
+    <string name="prompt_pin">Пин (если знаем)</string>
+    <string name="prompt_time">Время прихода/звонка (2017-05-11 10:45)</string>
+
+    <string name="prompt_fabule">Текст заявки</string>
+    <string name="action_draft">Создать заявку</string>
+    <string name="action_lead">Создать приход</string>
+
+    <string name="action_report">Деньги</string>
+    <string name="action_author">Авторизоваться</string>
+
+
+    <string name="error_invalid_datetime">Исправьте дату/время по примеру 2017-05-11 10:45</string>
+    <string name="error_invalid_fio">ФИО клиента должно быть заполнено</string>
+    <string name="error_invalid_fiooperator">Необходимо указать ваше ФИО</string>
+    <string name="error_field_required">Необходимо заполнить</string>
+    <string name="error_digits_required">Только числа</string>
+
+    <string name="action_menu_SMS">Отправить SMS</string>
+    <string name="action_menu_Lead">Фиксировать заявку</string>
+    <string name="action_menu_call">Перезвонить</string>
+    <string name="action_menu_setting">Параметры (903,967)</string>
+
+</resources>

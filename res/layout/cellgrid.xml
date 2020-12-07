@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:orientation="horizontal"
+
+              android:layout_margin="2dp"
+              android:background="#eeeeee"
+              android:weightSum="100">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  xmlns:tools="http://schemas.android.com/tools"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:background="#eeeeee"
+                  android:layout_margin="1dp"
+                  android:padding="1dp"
+                  android:layout_weight="20"
+                  android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:layout_margin="1dp"
+            android:textColor="@android:color/black"
+            tools:text="date"/>
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="fill_parent"
+            android:background="#ffffff"
+            android:layout_margin="1dp"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            tools:text="name"/>
+
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:layout_width="wrap_content"
+
+                  android:layout_height="wrap_content"
+                  android:background="#eeeeee"
+
+                  android:layout_margin="1dp"
+                  android:padding="1dp"
+                  android:layout_weight="70"
+                  android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/fabule"
+            android:layout_width="fill_parent"
+            android:background="#ffffff"
+            android:layout_margin="1dp"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            tools:text="fabule"/>
+
+        <TextView
+            android:id="@+id/comment"
+            android:layout_width="fill_parent"
+            android:background="#ffffff"
+            android:textStyle="bold"
+            android:layout_margin="1dp"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            tools:text="comment"/>
+
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:background="#eeeeee"
+                  android:minWidth="70dp"
+                  android:layout_margin="1dp"
+                  android:padding="1dp"
+                  android:layout_weight="10"
+                  android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/summa"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="#ffffff"
+            android:padding="1dp"
+            android:textColor="@android:color/black"
+            tools:text="summa"/>
+        <TextView
+            android:id="@+id/rub"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="#ffffff"
+            android:padding="1dp"
+            android:textColor="@android:color/black"
+            android:text=" руб"/>
+    </LinearLayout>
+</LinearLayout>
